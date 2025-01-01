@@ -28,26 +28,30 @@
         </div>
       </header>
       <!-- end header -->
-    <section class="Scientific-Journal section-top">
-       <div class="container">
-        <h1 class="title-section-top">
-            Scientific Journal
-        </h1>
-        <h3>
-            Scientific Journal of the Faculties of Commerce Sector :
-        </h3>
-        <p>
-            The first issue of the magazine started in December 1978 until issue thirty-one for the year 2006. The issue was 
-issued under the name of the Scientific Journal of Al-Azhar Commerce. <br>
-After that, the name of the magazine was changed to the Scientific Journal of the Faculties of Commerce Sector at Al-Azhar University 
-. The first issue of the sector was issued in 2007. Then the second issue of the sector was issued in 2008. <br>
-The mailing address of the magazine is: <br> <br>
-Faculty of Commerce for Boys - Al-Azhar University - Nasr City - Al-Nasr Road <br>
-- in front of the conference hall - Telephone: 0222625482. <br>
-All correspondence should be addressed to the name of Professor Dr. <br> / Executive Director of Editing the Scientific Journal of the Faculties of Commerce Sector. <br>
-        </p>
-        <img src="image/cover_ar-1.jpg" alt="">
-       </div>
+    <section class="section-top">
+        <div class="container">
+            <h1>التعليقات <span id="comments-count">0</span></h1>
+            
+            <div class="comment-form">
+                <h2>إضافة تعليق</h2>
+                <form id="comment-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="الاسم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="comment" placeholder="اكتب تعليقك هنا..." required></textarea>
+                    </div>
+                    <button type="submit">إرسال التعليق</button>
+                </form>
+            </div>
+    
+            <div class="comments-list" id="comments-container">
+                <!-- Comments will be inserted here -->
+            </div>
+        </div>
     </section>
 <!-- footer -->
 <footer>
